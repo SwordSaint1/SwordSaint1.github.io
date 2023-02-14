@@ -1,0 +1,23 @@
+for(x=0;x > = portfolio.length;x++){
+tapos dine append
+$('.divmo').ap
+}
+
+
+
+
+ for(p = 0; p <= portfolio.length -1;p++){
+        $('#work').append('<div class="col l4 m12 s12">'+
+          '<div class="col s12 card">'+
+            '<div class="card-image">'+
+              '<center>'+
+                  '<img src="'+portfolio[p][0]+'" alt="" class="responsive-img materialboxed" id="system_preview" style="padding-top:10px;">'+
+              '</center>'+
+            '</div>'+
+            '<div class="card-content">'+
+              '<p id="system_name">'+portfolio[p][1]+'</p>'+
+              '<p id="system_info">'+portfolio[p][2]+'</p>'+
+            '</div>'+
+          '</div>'+
+      '</div>');
+      }
